@@ -497,3 +497,8 @@ is the block in Exception Handling and finalize is the method of object class.
 32. What is Map() in java 
 A Map is an object that maps keys to values. A map cannot contain duplicate keys: 
 Each key can map to at most one value. It models the mathematical function abstraction.
+
+33. Types of Polymorphism 
+There are two types of polymorphism in Java: compile-time polymorphism and runtime 
+polymorphism. We can perform polymorphism in java by method overloading and method 
+overriding.
