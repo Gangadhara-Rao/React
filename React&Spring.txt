@@ -542,3 +542,18 @@ function BooksList () {
    }, []); // This empty array represents an empty list of dependencies
    ...
 }
+function BooksList () {
+   const [books, updateBooks] = React.useState([]);
+   const [counter, updateCounter] = React.useState(0);
+   
+   React.useEffect(function effectFunction() {
+       if (books) {
+           updateBooks([...books, { name: 'A new Book', id: '...'}]);
+       }
+   }, [counter]);
+   
+   const incrementCounter = () => {
+       updateCounter(counter + 1);
+   }
+   ...
+}
