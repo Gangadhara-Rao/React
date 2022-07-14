@@ -572,3 +572,8 @@ asynchronous operation and its resulting value.
 JavaScript Hoisting refers to the process whereby the interpreter appears to move
 the declaration of functions, variables or classes to the top of their scope, prior 
 to execution of the code.
+
+42. What is use state() in react? 
+Here, useState is a Hook (we'll talk about what this means in a moment). We call it
+inside a function component to add some local state to it. React will preserve this
+state between re-renders.
